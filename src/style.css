@@ -1,0 +1,74 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* write your CSS here */
+.body{
+  font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+padding: 1.5rem;
+width: 700px;
+height: 300px;
+background-color: #c6caeb;
+border-radius: 0.8rem;
+margin: 150px auto ;
+/* margin-top: 100px; */
+
+}
+.container h1{
+  text-align: center;
+  line-height: 2.1;
+  font-size: 31px;
+  
+}
+.container p{
+text-align: center;
+line-height: 1.4;
+font-size: 19px;
+
+}
+
+.container #email{
+width: 500px;
+font-size: 18px;
+border-radius: 2rem;
+height: 40px;
+margin: 8px;
+}
+
+.container #submitButton{
+width: 100px;
+font-size: 18px;
+border-radius: 2rem;
+height: 40px;
+margin: 8px;
+}
+
+.container .checkbox{
+height: 13px;
+width: 13px;
+}
+.container.checkbox:hover{
+  background-color: #c6caeb;
+  
+}
+.container .check{
+  font-size: 14px;
+}
+.container .check,.checkbox{
+  margin: 10px;
+  
+}
